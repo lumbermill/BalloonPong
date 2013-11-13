@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13845E191833A1D4003F9E9E /* AbstractSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13845E181833A1D4003F9E9E /* AbstractSceneController.m */; };
+		13845E1D1833A1E8003F9E9E /* balloon_ex.png in Resources */ = {isa = PBXBuildFile; fileRef = 13845E1A1833A1E8003F9E9E /* balloon_ex.png */; };
+		13845E1E1833A1E8003F9E9E /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 13845E1B1833A1E8003F9E9E /* balloon.png */; };
+		13845E1F1833A1E8003F9E9E /* foreground.png in Resources */ = {isa = PBXBuildFile; fileRef = 13845E1C1833A1E8003F9E9E /* foreground.png */; };
+		13845E241833A219003F9E9E /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13845E211833A219003F9E9E /* GameController.m */; };
+		13845E251833A219003F9E9E /* MainSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13845E231833A219003F9E9E /* MainSceneController.m */; };
+		13845E281833A229003F9E9E /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 13845E271833A229003F9E9E /* Sprite.m */; };
+		13845E2A1833A24A003F9E9E /* se_maoudamashii_system23.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13845E291833A24A003F9E9E /* se_maoudamashii_system23.wav */; };
+		13845E2C1833A2C9003F9E9E /* game_maoudamashii_5_casino04.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13845E2B1833A2C9003F9E9E /* game_maoudamashii_5_casino04.wav */; };
 		13B712781833335F00695B35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B712771833335F00695B35 /* Foundation.framework */; };
 		13B7127A1833335F00695B35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B712791833335F00695B35 /* CoreGraphics.framework */; };
 		13B7127C1833335F00695B35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B7127B1833335F00695B35 /* UIKit.framework */; };
@@ -34,6 +43,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13845E161833A1BD003F9E9E /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		13845E171833A1D4003F9E9E /* AbstractSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractSceneController.h; sourceTree = "<group>"; };
+		13845E181833A1D4003F9E9E /* AbstractSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractSceneController.m; sourceTree = "<group>"; };
+		13845E1A1833A1E8003F9E9E /* balloon_ex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_ex.png; sourceTree = "<group>"; };
+		13845E1B1833A1E8003F9E9E /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
+		13845E1C1833A1E8003F9E9E /* foreground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foreground.png; sourceTree = "<group>"; };
+		13845E201833A219003F9E9E /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		13845E211833A219003F9E9E /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		13845E221833A219003F9E9E /* MainSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSceneController.h; sourceTree = "<group>"; };
+		13845E231833A219003F9E9E /* MainSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSceneController.m; sourceTree = "<group>"; };
+		13845E261833A229003F9E9E /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		13845E271833A229003F9E9E /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		13845E291833A24A003F9E9E /* se_maoudamashii_system23.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = se_maoudamashii_system23.wav; sourceTree = "<group>"; };
+		13845E2B1833A2C9003F9E9E /* game_maoudamashii_5_casino04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = game_maoudamashii_5_casino04.wav; sourceTree = "<group>"; };
+		13845E2D1833A405003F9E9E /* SynthesizeSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		13B712741833335F00695B35 /* BalloonPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BalloonPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B712771833335F00695B35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13B712791833335F00695B35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,10 +138,20 @@
 			children = (
 				13B712861833335F00695B35 /* AppDelegate.h */,
 				13B712871833335F00695B35 /* AppDelegate.m */,
+				13845E171833A1D4003F9E9E /* AbstractSceneController.h */,
+				13845E181833A1D4003F9E9E /* AbstractSceneController.m */,
+				13845E201833A219003F9E9E /* GameController.h */,
+				13845E211833A219003F9E9E /* GameController.m */,
+				13845E221833A219003F9E9E /* MainSceneController.h */,
+				13845E231833A219003F9E9E /* MainSceneController.m */,
 				13B712891833335F00695B35 /* Main.storyboard */,
 				13B7128C1833335F00695B35 /* ViewController.h */,
 				13B7128D1833335F00695B35 /* ViewController.m */,
+				13845E261833A229003F9E9E /* Sprite.h */,
+				13845E271833A229003F9E9E /* Sprite.m */,
+				13845E2D1833A405003F9E9E /* SynthesizeSingleton.h */,
 				13B7128F1833335F00695B35 /* Images.xcassets */,
+				13845E161833A1BD003F9E9E /* readme.txt */,
 				13B7127E1833335F00695B35 /* Supporting Files */,
 			);
 			path = BalloonPong;
@@ -126,6 +160,11 @@
 		13B7127E1833335F00695B35 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				13845E1A1833A1E8003F9E9E /* balloon_ex.png */,
+				13845E1B1833A1E8003F9E9E /* balloon.png */,
+				13845E1C1833A1E8003F9E9E /* foreground.png */,
+				13845E2B1833A2C9003F9E9E /* game_maoudamashii_5_casino04.wav */,
+				13845E291833A24A003F9E9E /* se_maoudamashii_system23.wav */,
 				13B7127F1833335F00695B35 /* BalloonPong-Info.plist */,
 				13B712801833335F00695B35 /* InfoPlist.strings */,
 				13B712831833335F00695B35 /* main.m */,
@@ -228,8 +267,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13845E1D1833A1E8003F9E9E /* balloon_ex.png in Resources */,
+				13845E1E1833A1E8003F9E9E /* balloon.png in Resources */,
+				13845E1F1833A1E8003F9E9E /* foreground.png in Resources */,
 				13B712901833335F00695B35 /* Images.xcassets in Resources */,
+				13845E2A1833A24A003F9E9E /* se_maoudamashii_system23.wav in Resources */,
 				13B712821833335F00695B35 /* InfoPlist.strings in Resources */,
+				13845E2C1833A2C9003F9E9E /* game_maoudamashii_5_casino04.wav in Resources */,
 				13B7128B1833335F00695B35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +295,10 @@
 			files = (
 				13B7128E1833335F00695B35 /* ViewController.m in Sources */,
 				13B712881833335F00695B35 /* AppDelegate.m in Sources */,
+				13845E191833A1D4003F9E9E /* AbstractSceneController.m in Sources */,
+				13845E251833A219003F9E9E /* MainSceneController.m in Sources */,
+				13845E241833A219003F9E9E /* GameController.m in Sources */,
+				13845E281833A229003F9E9E /* Sprite.m in Sources */,
 				13B712841833335F00695B35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +508,7 @@
 				13B712A81833335F00695B35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13B712A91833335F00695B35 /* Build configuration list for PBXNativeTarget "BalloonPongTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +517,7 @@
 				13B712AB1833335F00695B35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
